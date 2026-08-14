@@ -1,20 +1,18 @@
-let nome = "Thiago";
-
-if (nome == "Thiago"){
-    console.log("Voce digitou o nome correto!")
-}else{
-     console.log("Voce digitou outra coisa...")
+//LAÇO DE REPETIÇÃO FOR (TAMANHO DEFINIDO)
+for(let i =0; i < 10; i++ ){
+    console.log("Loop de repetição de 10 vezes!");
 }
 
-let idade = 17;
- 
-if (idade == 18) {
-    console.log("Voce é praticamente adulto...")
-}else if( idade < 18 ){
-    console.log("Voce ainda é de menor...")
-}else {
-    console.log("Voce é adulto...")
-}
+const frases = [
+    "preparando motores",
+    "checando sistemas",
+    "autorizaçao recebida",
+    "contagem regressiva",
+    "ignição"
+];
 
-//FAÇA UMA VERIFICAÇÃO COM IF E ELSE
-//DE UMA PESSOA SE ELA PODE OU NÃO PODE VOTAR.
+//vetor = [ 0,1,2,3,4 ]
+console.log( frases[2] );
+console.log( frases[4] );
+
+//mostre
